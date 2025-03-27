@@ -1,0 +1,73 @@
+body{
+   font-family: 'Baloo 2', sans-serif;
+   background: #ffc9f1;
+   color: #000000;
+   margin: 0;
+   padding: 0;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.intro{
+    text-align: center;
+    margin: 20px;
+}
+
+.profile-picture {
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(34, 60, 80, .75);
+}
+
+.about-grid{
+    grid-template-columns: 50% 50%;
+}
+
+.i-am, .i-like{
+    text-align: center;
+}
+
+.about-list{
+    padding: 0;
+}
+  
+.projects-grid{
+    grid-template-columns: 50% 50%;
+}
+
+.project-image-wrapper{
+    justify-self: center;
+    padding: 10px;
+}
+
+.project-image{
+    width: 300px;
+    border-radius: 5px;
+}
+
+.links-and-contact{
+    grid-template-columns: 30% 70%;
+}
+
+.links-list{
+    list-style: none;
+    padding: 0;
+}
+
+.map{
+    text-align: center;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+}
+
+@media (max-width: 650px) {
+    .about-grid, .projects-grid, .links-and-contact {
+      grid-template-columns: 100%;
+    }
+}
